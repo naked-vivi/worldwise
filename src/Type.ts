@@ -10,3 +10,5 @@ export type City = {
         lng: number;
     };
 };
+
+export type NewCity = Omit<City, "id">;
