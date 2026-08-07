@@ -23,6 +23,18 @@
         "lng": 7.316894531250001
       },
       "id": "fm08VGmGBpk"
+    },
+    {
+      "cityName": "Castelló de la Plana",
+      "emoji": "🇪🇸",
+      "country": "Spain",
+      "date": "2026-08-07",
+      "notes": "",
+      "position": {
+        "lat": 40.02590560445986,
+        "lng": -0.04016876220703126
+      },
+      "id": "vmvdKdGbpgI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

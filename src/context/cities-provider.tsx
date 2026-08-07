@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
 import type { ReactNode } from "react";
-import type { State, Action, NewCity } from "../Type";
+import type { AppState, AppAction, NewCity } from "../Type";
 import { CitiesContext } from "./cities-context";
 
 const BASE_URL = "http://localhost:3001";
@@ -12,7 +12,7 @@ const initialState = {
     error: ""
 }
 
-function reducer(state: State, action: Action) {
+function reducer(state: AppState, action: AppAction) {
     switch (action.type) {
         case "loading":
             return {
