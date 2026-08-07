@@ -1,28 +1,28 @@
 {
   "cities": [
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Vilafamés",
+      "emoji": "🇪🇸",
+      "country": "Spain",
+      "date": "2026-08-07",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": 40.10958807474143,
+        "lng": -0.06111145019531251
       },
-      "id": "98443197"
+      "id": "R4OokvNGOe4"
     },
     {
-      "cityName": "Nansang",
-      "emoji": "🇲🇲",
-      "country": "Myanmar",
-      "date": "2026-08-06",
-      "notes": "Pretty",
+      "cityName": "Saint-Jean-Cap-Ferrat",
+      "emoji": "🇫🇷",
+      "country": "France",
+      "date": "2026-08-07",
+      "notes": "",
       "position": {
-        "lat": 20.879342971957897,
-        "lng": 97.723388671875
+        "lat": 43.67581809328341,
+        "lng": 7.316894531250001
       },
-      "id": "3voNE0TwouY"
+      "id": "fm08VGmGBpk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
