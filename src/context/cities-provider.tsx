@@ -1,4 +1,4 @@
-import { useEffect, useReducer } from "react";
+import { useCallback, useEffect, useReducer } from "react";
 import type { ReactNode } from "react";
 import type { AppState, AppAction, NewCity } from "../Type";
 import { CitiesContext } from "./cities-context";
@@ -73,7 +73,7 @@ function CitiesProvider({ children }: { children: ReactNode }) {
     }, []);
 
 
-    async function getCity(id: string) {
+    const getCity = useCallback(async function getCity(id: string) {
         if (id === currentCity?.id) return;
         try {
             dispatch({ type: "loading" })
@@ -85,7 +85,7 @@ function CitiesProvider({ children }: { children: ReactNode }) {
         catch {
             dispatch({ type: "rejected", payload: "Error getting cities data" });
         }
-    };
+    }, [currentCity?.id])
 
     async function createCity(newCity: NewCity) {
         try {

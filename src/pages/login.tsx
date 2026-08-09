@@ -12,8 +12,6 @@ export default function Login() {
     const [email, setEmail] = useState("jack@example.com");
     const [password, setPassword] = useState("qwerty");
 
-
-
     function handleSubmit(e: React.SubmitEvent) {
         e.preventDefault();
 
@@ -50,7 +48,7 @@ export default function Login() {
                 </div>
 
                 <div>
-                    <Button type="primary">Login</Button>
+                    <Button onClick={() => { }} type="primary">Login</Button>
                 </div>
             </form>
         </main>
